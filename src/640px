@@ -1,3 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,700i" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="container navbar-content">
+        <span class="navbar-title">Navigation</span>
+        <!--<a href="#" class="navbar-button">-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--</a>-->
+        <div class="hamburger-container">
+            <div class="hamburger">
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
+
+        <ul class="navbar-menu">
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link active">Pizza delivery</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">UA/UX Salads</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">Desserts</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">About Us</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="header">
+    <div class="container">
+        <h1 class="header-title">All we need is Love. <br>And pizza. Pizza is good</h1>
+        <a href="www.new-pizza.com" class="header-site-link">www.new-pizza.com</a>
+    </div>
+</header>
+
+<div class="food-menu">
+    <div class="food-menu-item food-menu-delivery"><p class="delivery-text">Pizza Delivery</p></div>
+    <div class="food-menu-item food-menu-ua-ux"><p class="ua-ux-text">UA/UX Salads</p></div>
+    <div class="food-menu-item food-menu-desserts"><p class="desserts-text">Desserts</p></div>
+</div>
+
+<div class="container_options neque-title">
+    <p class="neque-title-text">NEQUE ERO ULLAMCORPER SED</p>
+</div>
+<div class="container_options under-neque-title">
+    <p class="under-neque-title-text">Ultrices cursus sit amet placerat tortor</p>
+</div>
+<div class="container_options tincidunt">
+    <div class="tincidunt-text">TINCIDUNT AT MAURIS</div>
+</div>
+<div class="container_options id-hendrerit">
+    <div class="id-hendrerit-text">ID HEDRERIT VELIT QUIS <img class="sub-logo"
+                                                               src="images/id-hend-for-640px.png" alt=""></div>
+</div>
+
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Corporis error iste obcaecati. Dolores ipsa laboriosam maxime porro reiciendis
+    repellat, sunt?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Aut facere harum in molestias quis recusandae, sapiente. Deserunt eos excepturi
+    explicabo.
+</div>
+
+<div class="container_options menu-offer">&#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Distinctio doloremque dolorum eius in incidunt inventore ipsam quaerat, quam
+    rerum tempora.
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options id-dolor-pallente">ID DOLOR PELLENTESQUE <img class="sub-logo" src="images/wine-logo-for-640px.png"
+                                                                            alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options vistibulum-auge">VESTIBULUM AUGE ET</div>
+
+<div class="container_options auge-proin">AUGE PROIN ELEIFEND <img class="sub-logo"
+                                                                   src="images/coffe-logo-for-640px.png"
+                                                                   alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptat??
+</div>
+
+
+<!--<div class="container_options id-hendrerit-text">PHERATRA AT SIT AMET SEM</div>-->
+
+<div class="container_options auge-proin">PHARERTA AT SIT<img class="sub-logo"
+                                                              src="images/pivo-logo-for-640px.png"
+                                                              alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+
+<footer class="container_options footer">
+    <p class="footer-text">Best pizza from 2018 year. <br> New UA/UX salads - not boring, only fun.</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
