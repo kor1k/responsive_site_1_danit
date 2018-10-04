@@ -10,9 +10,11 @@
         padding-left: 20px;
     }
 
-    .wine-logo, .coffee_logo, .id-hendreit-logo {
-        display: inline-block;
-        padding-left: 120px;
+    .sub-logo {
+        padding-left: 110px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     /*.container {*/
@@ -189,6 +191,7 @@
     }
 
     .id-hendrerit-text {
+        display: flex;
         font-family: Lato, sans-serif;
         color: #3f4043;
         font-size: 17px; /* Приближение из-за подстановки шрифтов */
@@ -205,6 +208,8 @@
 
     .menu-offer {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         font-family: Lato;
         color: #3f4043;
         font-size: 13.55px; /* Приближение из-за подстановки шрифтов */
@@ -220,18 +225,23 @@
         text-align: justify;
     }
 
+    /*.price {*/
+        /*display: flex;*/
+        /*justify-content: flex-end;*/
+        /*align-items: center;*/
+        /*font-family: Lato, sans-serif;*/
+        /*color: #3f4043;*/
+        /*font-size: 14px; !* Приближение из-за подстановки шрифтов *!*/
+        /*font-weight: 700;*/
+        /*!*padding-left: 140px;*!*/
+    /*}*/
+
     .price {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        font-family: Lato, sans-serif;
-        color: #3f4043;
-        font-size: 14px; /* Приближение из-за подстановки шрифтов */
-        font-weight: 700;
-        /*padding-left: 140px;*/
+
     }
 
     .id-dolor-pallente {
+        display: flex;
         padding-top: 22px;
         font-family: Lato;
         color: #3f4043;
@@ -244,14 +254,16 @@
     /*padding-left: 100px;*/
     /*}*/
     .vistibulum-auge {
+        display: flex;
+        align-items: center;
         font-family: Lato, sans-serif;
-        color: black;
+        color: white;
         font-size: 21px; /* Приближение из-за подстановки шрифтов */
         font-weight: 400;
-        text-align: left;
+        padding-left: 20px;
         margin-top: 20px;
-        /*height: 40px;*/
-        /*background-color: #add9ae;*/
+        height: 40px;
+        background-color: #add9ae;
     }
 
     .auge-text {
@@ -265,6 +277,7 @@
     }
 
     .auge-proin {
+        display: flex;
         font-family: Lato, sans-serif;
         color: #3f4043;
         font-size: 16px;
@@ -282,7 +295,7 @@
     }
 
     .footer-text {
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         color: #ffffff;
         font-size: 12px; /* Приближение из-за подстановки шрифтов */
         font-weight: 400;
