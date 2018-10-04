@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,700i" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="container navbar-content">
+        <span class="navbar-title">Navigation</span>
+        <!--<a href="#" class="navbar-button">-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--<span></span>-->
+        <!--</a>-->
+
+        <div class="hamburger-container">
+            <div class="hamburger">
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
+
+        <!--<div id="burger">-->
+        <!--<div class="bar top"></div>-->
+        <!--<div class="bar center"></div>-->
+        <!--<div class="bar bottom"></div>-->
+        <!--</div>-->
+        <!--<nav id="navigation1" class="navigation">-->
+        <!--<ul>-->
+        <!--<li><a href="#">Home</a></li>-->
+        <!--<li><a href="#">Stuffs</a></li>-->
+        <!--<li><a href="#">Other stuffs</a></li>-->
+        <!--<li><a href="#">Cats</a></li>-->
+        <!--</ul>-->
+        <!--</nav>-->
+        <!--<div id="nav-container">-->
+        <!--<div class="toggle-icon">-->
+        <!--<span class="bar"></span>-->
+        <!--<span class="bar"></span>-->
+        <!--<span class="bar"></span>-->
+        <!--</div>&lt;!&ndash; /toggle-icon &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; /nav-container &ndash;&gt;-->
+        <ul class="navbar-menu">
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link active">Pizza delivery</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">UA/UX Salads</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">Desserts</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">About Us</a></li>
+            <li class="navbar-menu-item"><a href="" class="navbar-menu-link">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="header">
+    <div class="container">
+        <h1 class="header-title">All we need is Love. <br>And pizza. Pizza is good</h1>
+        <a href="www.new-pizza.com" class="header-site-link">www.new-pizza.com</a>
+    </div>
+</header>
+
+<div class="food-menu">
+    <div class="food-menu-item food-menu-delivery"><p class="delivery-text">Pizza Delivery</p></div>
+    <div class="food-menu-item food-menu-ua-ux"><p class="ua-ux-text">UA/UX Salads</p></div>
+    <div class="food-menu-item food-menu-desserts"><p class="desserts-text">Desserts</p></div>
+</div>
+
+<div class="container_options neque-title">
+    <p class="neque-title-text">NEQUE ERO ULLAMCORPER SED</p>
+</div>
+<div class="container_options under-neque-title">
+    <p class="under-neque-title-text">Ultrices cursus sit amet placerat tortor</p>
+</div>
+<div class="container_options tincidunt">
+    <div class="tincidunt-text">TINCIDUNT AT MAURIS</div>
+</div>
+<div class="container_options id-hendrerit">
+    <div class="id-hendrerit-text">ID HEDRERIT VELIT QUIS <img class="sub-logo"
+                                                               src="images/id-hendreit-logo.png" alt=""></div>
+</div>
+
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Corporis error iste obcaecati. Dolores ipsa laboriosam maxime porro reiciendis
+    repellat, sunt?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Aut facere harum in molestias quis recusandae, sapiente. Deserunt eos excepturi
+    explicabo.
+</div>
+
+<div class="container_options menu-offer">&#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Distinctio doloremque dolorum eius in incidunt inventore ipsam quaerat, quam
+    rerum tempora.
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options id-dolor-pallente">ID DOLOR PELLENTESQUE <img class="sub-logo" src="images/wine-logo.png"
+                                                                            alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options vistibulum-auge">VESTIBULUM AUGE ET</div>
+
+<div class="container_options auge-proin">AUGE PROIN ELEIFEND <img class="sub-logo"
+                                                                   src="images/coffe-logo.png"
+                                                                   alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+
+<!--<div class="container_options id-hendrerit-text">PHERATRA AT SIT AMET SEM</div>-->
+
+<div class="container_options auge-proin">PHARERTA AT SIT<img class="sub-logo"
+                                                              src="images/pivasik-logo.png"
+                                                              alt=""></div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+<div class="container_options menu-offer"> &#8226; Lorem ipsum dolor sit. <p class="price">1200$</p>
+</div>
+<div class="container_options sub-menu-offer">Praesent hendrerit massa ut libero bibendum pulvinar Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Consequatur est illo iste libero nobis placeat praesentium quae, vitae
+    voluptatibus voluptatum?
+</div>
+
+
+<footer class="container_options footer">
+    <p class="footer-text">Best pizza from 2018 year. <br> New UA/UX salads - not boring, only fun.</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+@media screen and (max-width: 320px) {
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+        transition: .4s
+    }
+
+    .navbar {
+        background-color: #3f4043;
+        height: 37px;
+        padding-left: 20px;
+    }
+
+    .sub-logo {
+        /*padding-left: 110px;*/
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-items: center;
+    }
+
+    .container_options {
+        margin: 15px;
+    }
+
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .navbar-title {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 12px;
+        line-height: 37px;
+
+    }
+
+    .navbar-menu {
+        background-color: #fafafa;
+        position: absolute;
+        right: 0;
+        top: 37px;
+        width: 182px;
+        padding-bottom: 5px;
+        display: none;
+    }
+
+    .navbar-menu-link {
+        display: block;
+        padding: 14px 12px;
+        border-bottom: 2px solid #f2f2f2;
+        color: #444;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar-menu-link:hover {
+        background-color: #f5f5f5;
+    }
+
+    .navbar-menu-link.active {
+        background-color: #f5f5f5;
+    }
+
+    .header {
+        padding-left: 20px;
+        padding-top: 19px;
+        padding-bottom: 94px;
+        margin-bottom: 2px;
+        background-image: url("../images/pizza-love-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-title {
+        margin-bottom: 12px;
+        font-family: 'Lato', sans-serif;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .header-site-link {
+        font-family: 'Lato', sans-serif;
+        color: #a6d6e0;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .food-menu-item {
+        width: 255px;
+        height: 75px;
+    }
+
+    .food-menu {
+        display: inline-block;
+    }
+
+    .food-menu-delivery {
+        position: relative;
+        background-image: url("../images/pizza-deliv-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .food-menu-delivery::before {
+        margin-left: 245px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        content: ">";
+        float: right;
+        height: 75px;
+        width: 75px;
+    }
+
+    /* Для стилизации */
+    .food-menu-delivery::before {
+        background: #add9ae;
+        color: white;
+        font-size: 20px;
+    }
+
+    .food-menu-ua-ux::before {
+        margin-left: 245px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        content: ">";
+        float: right;
+        height: 75px;
+        width: 75px;
+    }
+
+    .food-menu-ua-ux::before {
+        background: #add9ae;
+        color: white;
+        font-size: 20px;
+    }
+
+    .food-menu-desserts::before {
+        margin-left: 245px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        content: ">";
+        float: right;
+        height: 75px;
+        width: 75px;
+    }
+
+    .food-menu-desserts::before {
+        background: #add9ae;
+        color: white;
+        font-size: 20px;
+    }
+
+    .food-menu-ua-ux {
+        position: relative;
+        background-image: url("../images/ua-ux-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .food-menu-desserts {
+        position: relative;
+        background-image: url("../images/deserts-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .delivery-text, .ua-ux-text, .desserts-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-weight: 700;
+        margin-top: 2px;
+        padding-top: 12px;
+        font-size: 20px;
+        line-height: 44px;
+    }
+
+    .neque-title-text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .under-neque-title-text {
+        padding-left: 39px;
+        font-family: Lato, sans-serif;
+        color: #cbcdce;
+        font-size: 10px;
+    }
+
+    .tincidunt {
+        height: 37px;
+        background-color: #3d3e41;
+        margin-bottom: 20px;
+    }
+
+    .tincidunt-text {
+        display: flex;
+        font-family: Lato, sans-serif;
+        padding-top: 6px;
+        padding-left: 20px;
+        color: #acd9ad;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .id-hendrerit-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 24px;
+        display: flex;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 17px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    /*.id-hendreit-logo {*/
+    /*padding-left: 100px;*/
+    /*}*/
+    .id-hendrerit {
+        margin-bottom: 22px;
+    }
+
+    .menu-offer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 13.55px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .sub-menu-offer {
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 10px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .id-dolor-pallente {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 22px;
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 17px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    /*.wine-logo {*/
+    /*padding-left: 100px;*/
+    /*}*/
+    .vistibulum-auge {
+        display: flex;
+        align-items: center;
+        font-family: Lato, sans-serif;
+        color: white;
+        font-size: 21px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        padding-left: 20px;
+        margin-top: 20px;
+        height: 40px;
+        background-color: #add9ae;
+    }
+
+    .auge-text {
+        display: flex;
+        font-family: Lato, sans-serif;
+        padding-top: 6px;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .auge-proin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 24px;
+        display: flex;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #add9ae;
+        height: 55px;
+        margin-bottom: 25px;
+        margin-top: 48px;
+    }
+
+    .footer-text {
+        font-family: Montserrat, sans-serif;
+        color: #ffffff;
+        font-size: 12px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        line-height: 16px; /* Приближение из-за подстановки шрифтов */
+        text-align: center;
+
+    }
+
+    .price {
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .hamburger-container {
+        background-color: #202529;
+        width: 37px;
+        height: 37px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamburger {
+        width: 27px;
+        height: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamburger-line {
+        background-color: #fff;
+        width: 27px;
+        height: 2px;
+        position: absolute;
+        transform-origin: center;
+    }
+
+    .hamburger-line:before {
+        content: "";
+        display: block;
+        background-color: #fff;
+        width: 27px;
+        height: 2px;
+        transform: translateY(-6px);
+    }
+
+    .hamburger-line:after {
+        content: "";
+        display: block;
+        background-color: #fff;
+        width: 27px;
+        height: 2px;
+        transform: translateY(4px);
+
+    }
+
+}
